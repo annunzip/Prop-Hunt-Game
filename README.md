@@ -1,1 +1,8 @@
 # Prop Hunt Game
+The Prop Hunt Game was designed and developed using Unity and C#, and is a game based on hide and seek where the people hiding are disguised as everyday objects, and try to blend in with the inanimate objects around them to avoid being captured by the seekers. This is a multiplayer game which can be played online. 
+
+## WARNING:
+This project was initially developed in Unity version 5.3.1, so when trying to import it to github, since it is a unity project, there are settings like changing meta files to visible and changing serialization to force text. In order to do these things, I opened the porject, but since it updated to a new version of unity, all of the assets for the game were deleted. As such, there are not many files that remain. If you would like to try the game however, the .exe file is available, just make sure you have enough people (about 4) to play the game.
+
+## What I did for this game
+For this game, I designed the levels in unity, and designed some of the assets used, such as the props that players can hide as. I also populated each map with objects, and tried to make them fit the theme of the level, such as the warehouse and mushroom forest. In terms of mechanics of the game, I helped program the firing mechanism for the seekers (they fire snowballs) which are used to hit enemy props to make them lose health. I also set up the game's multiplayer functionality using unity's built in multiplayer settings. Lastly, I programmed the class that each object had (things like object collision box and ability to turn and jump) so that players could control them and use each of their unique sizes and properties. 
